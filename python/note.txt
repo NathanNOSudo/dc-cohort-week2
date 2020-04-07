@@ -1,0 +1,14 @@
+ADD IMPORTANT NOTES HERE!!!!
+
+#class is a blueprint
+Class # to declare class
+#create a class
+Class class_name:
+	def __init__(self): 
+		self.attribute = ""
+#init function is initializer/constructor; set self to allow #attributes to class, can declare objects/attributes as arguments with init to allow minimum req input
+
+#Inheritance of classes
+#add another class into new class argument
+#must reference types
+#look to example of electric cars(line 35) must use either super(which calls on parent class, for #init else it can only use the functions) or class_name.
