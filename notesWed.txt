@@ -1,0 +1,41 @@
+# Notes from Wednesday week 2 for reference
+###################################
+# Another way i can go with this. below is Rickelles example
+#
+# def viewAll(Table):
+#     for t in table:
+#         print(f'Table # {self.tablenum} Occupied: {self.occup}')
+#
+###################################
+# Ians Example Below. Easier from a class instead of array? 
+# 
+# def viewAllTables(self):
+#    for table in my_poolhall.tables:
+#        print(f'Table number: {table.table_number}')
+# 
+# #################################
+# Azam's note from slack below
+# 
+# pool_tables = []
+# class PoolTable:
+#     def __init__(self, table_number):
+#        self.table_number = table_number
+#        self.start_time = None
+#        self.end_time = None
+#        self.status = "NOT OCCUPIED"
+# for index in (1, 13):
+#     table = PoolTable(index)
+#     pool_tables.append(table)
+#
+# #################################
+# 
+################################### 
+# Andrews from slack Below
+#
+# if self.status == "1"
+#     self.startTime.update({%H:%M}.format(datetime.datetime.now()))
+# if self.status == "0"
+#     self.endTime.update({%H:%M}.format(datetime.datetime.now()))
+# self.totalTime = (self.endTime - self.startTime)
+#
+####################################

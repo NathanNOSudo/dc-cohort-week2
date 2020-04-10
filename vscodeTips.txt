@@ -1,0 +1,57 @@
+ 
+
+Note: I'll keep updating this as we find more useful info throughout the bootcamp!
+ 
+
+Integrated Terminal
+toggle terminal: ctrl + ~
+new terminal ctrl + shift + ~
+Note: you cannot drag and drop from Finder to the integrated VS Code terminal. (It will open the file instead of copying the file path.)
+Using VS Code
+The most useful way to use VS Code is to open the folder that holds your entire project.
+To do this, either go to File -> Open Folder
+Or, on the command line: code my-project-folder
+Open any file in your project: cmd + p
+Toggling a comment: cmd + /
+Selecting multiple occurences of the highlighted text: Cmd + d
+Extending your cursor up: Cmd + Option + Up
+Extending your cursor down: Cmd + Option + Down
+List and switch between open windows: Ctrl + r
+Editing your keyboard shortcuts
+Click the "Code" menu in the upper right, then choose Preferences, then click Keyboard Shortcuts.
+This brings up a search window with the text "Search keybindings"
+Type part of the name of the shortcut (they usually have intuitive names like "Toggle comment")
+Put your mouse over the item in the results list.
+Click the pencil icon to the left of the item.
+You will be prompted for a new key combination to use. Press those keys, and release. Then press Enter.
+Repeat this for any other key combinations you'd like to customize. 
+When you are finished, close the Tab.
+Editing your settings
+Press Cmd + , to open the Settings window
+Search for setting you'd like to customize (for example, enter "tab" to search for "tabSize")
+Put your mouse over the item in the results list.
+Click the pencil icon to the left of the item.
+Then click the menu item "Copy to Settings" that appears.
+In the right hand panel, you should see a copy of that setting, and the current value should be highlighted.
+Change the value to the desired value (for example, you could change the value of tabSize to 2).
+Press Cmd + S to save your changes.
+When you are finished, close the Tab (labeled "settings.json").
+Useful settings
+show "invisible" characters (tabs, spaces): "editor.renderWhitespace": true
+Working with Python
+Go to the View menu and choose Extensions.
+This pulls up the Extensions window. Search for "python".
+The first result should be the official python extension (a.k.a. plugin).
+Click the Install button, then click Reload to activate the extentions.
+Evaluate python directly in VS Code
+Highlight a line (or several lines)
+Right-click
+In the menu that appears, click "Run Selection/Line in Terminal"
+This should open the built-in Terminal and run your code. Neat!
+When editing a python file, to get rid of the annoying green squiggles:
+Go to this page and look at the Enable/Disable Linting section. It describes the setting for disabling the "linting" feature (which provides very nit-picky code styling recommendations).
+
+Specifically, you will want to add the following setting:
+
+"python.linting.enabled": false
+Extending your cursor up: Cmd + Option + Up
